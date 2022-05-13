@@ -1,0 +1,9 @@
+
+<ul class="nav main-nav">
+  <li *ngFor="let val of sections" class="nav-item status-{{val.sectionState.stateName | lowercase }}" >
+    <p>{{ val.section.name }}</p>
+    <span class="material-icons">
+      {{val.sectionState.icon}}
+    </span>
+  </li>
+</ul>

@@ -1,0 +1,21 @@
+<div class="toolbar d-flex flex-row" role="banner">
+  <div class="p2 flex-grow-1">
+    <img width="160" [alt]="title" src="assets/imgs/Logo_Bühler_AG.png" />
+  </div>
+
+  <div class="p2 toolbar-clock">
+    <span class="material-icons">
+      schedule
+    </span>
+    {{date | date: 'short'}}
+  </div>
+
+  <div class="p2 toolbar-user">
+    <span class="material-icons">
+      account_circle
+    </span>
+    Operator
+  </div>
+
+
+</div>

@@ -1,0 +1,39 @@
+.main-nav {
+  margin-top: 60px;
+  background-color: #c2c3c4;
+}
+
+.main-nav .nav-item {
+  padding: 20px 50px;
+  position: relative;
+}
+
+.nav-item .material-icons {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+
+.main-content {
+  min-height: 400px;
+  margin: 20px;
+}
+
+.card-body {
+  position: relative;
+  text-align: center;
+}
+
+.card-body .state-icon {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+.main-icon {
+  font-size: 5rem;
+}
+
+.section-divider {
+  width: 80%; color:#009B91; position: absolute; height: 10px; z-index: -1;
+}

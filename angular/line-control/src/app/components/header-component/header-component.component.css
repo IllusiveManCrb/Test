@@ -1,0 +1,41 @@
+.toolbar-clock, .toolbar-user {
+  margin: 10px;
+  display: flex;
+}
+
+.toolbar-clock .material-icons, .toolbar-user .material-icons {
+  margin-right: 5px;
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #c2c3c4;
+  color: white;
+  font-weight: 600;
+  border-bottom: 5px solid #009B91;
+}
+
+.toolbar img {
+  margin: 0 16px;
+}
+
+.toolbar #twitter-logo {
+  height: 40px;
+  margin: 0 8px;
+}
+
+.toolbar #youtube-logo {
+  height: 40px;
+  margin: 0 16px;
+}
+
+.toolbar #twitter-logo:hover,
+.toolbar #youtube-logo:hover {
+  opacity: 0.8;
+}

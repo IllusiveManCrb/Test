@@ -1,0 +1,19 @@
+
+<div class="main-content d-flex align-items-center justify-content-around bd-highlight">
+
+  <hr class="section-divider">
+
+  <div class="p-2 bd-highlight" *ngFor="let val of sections">
+    <div class="status-{{val.sectionState.stateName | lowercase }}" style="width: 18rem;">
+      <div class="card-body" style="position: relative">
+        <h5 class="card-title">{{ val.section.name }}</h5>
+        <span class="material-icons main-icon">
+          {{ val.section.icon }}
+        </span>
+        <span class="material-icons state-icon">
+          {{val.sectionState.icon}}
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
